@@ -1,7 +1,7 @@
 <?php
     const DBDRIVE = 'mysql';
     const DBHOST = 'localhost';
-    const DBNAME = '';
+    const DBNAME = 'FabulaKids';
     const DBUSER = 'root';
     const DBPASS = '';
 
