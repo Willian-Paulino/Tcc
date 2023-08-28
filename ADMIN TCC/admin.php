@@ -9,7 +9,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container-fluid ">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-4 d-flex justify-content-center align-items-center menu">
         <div class="menu__logo">
@@ -17,7 +17,7 @@
         </div>
         <div class="menu__options">
         <div class="options__estatisticas">
-          <p class="options__indicadores"><span class="material-symbols-outlined">
+          <p class="options__indicadores"><span class="material-symbols-outlined options__indicadores">
 bar_chart
 </span> Estatísticas do site</p>
           <p class="options__acessos"><span class="material-symbols-outlined">
@@ -29,18 +29,34 @@ timeline
         </div>
         </div>
       <div class="options__editar">
-        <p class="options__indicadores"><span class="material-symbols-outlined">
+        <p class="options__indicadores"><span class="material-symbols-outlined options__indicadores">
 edit
 </span>Editar</h1>
         <p class="options__acessos"><span class="material-symbols-outlined">
 styler
 </span>Editar produtos</p>
-      <p class="options__acessos"><span class="material-symbols-sharp">
-photo
-</span>Editar slideshow</p>
+      <p class="options__acessos"><span class="material-symbols-outlined">
+        photo_camera
+        </span>Editar slideshow</p>
       </div>
-      </div>  
+      </div>
+      <div class="col-8 d-flex justify-content-center edit">
+        <h1 class="edit__h1">Editar produtos</h1>
+
+        <div class="row">
+          <div class="edit__exibir">
+
+            <div class="col-4">
+              <img src="">
+            </div>
+            <div class="col-8">
+              <h2>Nome do produto em exibição</h1>
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
+
   </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
