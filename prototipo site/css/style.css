@@ -1,0 +1,62 @@
+*{
+    margin-top: 0;
+    
+}
+.top{
+    background-color: lightblue;
+    height: 5vh;
+}
+.p_branco{
+    background-color: white;
+    height: 10vh    ;
+}
+.input_pesquisa{
+    height: 4vh;
+    width: 35vh;
+    text-align: center;
+    background-color: thistle;
+}
+
+.pesquisa{
+    background-color: pink;
+    display: inline-flex;
+    align-items: center;
+
+}
+.form_pesquisa{
+margin-left: 25.5rem;
+}
+
+.icons_pesquisa{
+    margin-left: 30rem;
+    }
+body{
+    background-color: whitesmoke;
+}
+
+.opcoes{
+    background-color: rgb(255, 248, 137);
+    padding-top: 10px;
+}
+.opcoes__button{
+    margin-left: 10rem;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    
+}
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 2rem;
+}
+.slide img{
+height: 300px;
+}
+.carousel-control-next span,.carousel-control-prev span{
+    color: black;
+    font-size: 100px;
+    
+}
