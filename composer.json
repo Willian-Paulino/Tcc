@@ -1,0 +1,12 @@
+{
+    "autoload": {
+    "psr-4": {
+        "Source\\": "src/"
+    }
+    },
+    "require": {
+    "php": "^5.5",
+    "ext-pdo": "*",
+        "google/apiclient": "2.0"
+    }
+  }
