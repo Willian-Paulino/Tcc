@@ -28,26 +28,26 @@ arrow_back  voltar
         <div class="col-3"></div>
         <div class="col-6 login__esquerdo d-flex justify-content-center">
             <h1>Login de admin</h1>
-            <form action="Assets/functions/logar-admin.php">
-                <div class="form-group login__form">
+            <form action="../Controllers/functions/logar-admin.php" method="POST" >
+            <div class="form-group login__form">
     
-                    <label for="email" class="login__p"><span class="material-symbols-outlined">
-                    mail
-                    </span> E-mail</label>
-                    
-                    <input type="text" name="email" id="email" class="form-control">
-                </div>
-                    <div class="form-group login__form">
-                
-                    <label for="password" class="login__p"><span class="material-symbols-outlined">
-                        lock
-                    </span>Senha</label>
-                    <input type="text" name="password" id="password" class="form-control">
-                </div>
-                <div class="row">
+    <label for="email" class="login__p"><span class="material-symbols-outlined">
+    mail
+    </span> E-mail</label>
+    
+    <input type="text" name="email" class="form-control">
+</div>
+    <div class="form-group login__form">
+
+    <label for="senha" class="login__p"><span class="material-symbols-outlined">
+        lock
+    </span>Senha</label>
+    <input type="text" name="senha" class="form-control">
+</div>
+<div class="row">
                     <div class="col-12 d-flex justify-content-center">
                     <div class="form-group">
-                    <button class="btn btn-outline-primary d-flex justify-content center">Logar</button>
+                    <button class="btn btn-outline-primary d-flex justify-content center">ENTRAR</button>
                 </div>
                     </div>
                 </div>
